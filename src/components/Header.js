@@ -23,11 +23,11 @@ const Header = () => {
             </section>
             <section className="header-menu">
                 <div class="logo">
-                    <img src={logo}></img>
+                    <img src={logo} alt='claro-logo'></img>
                 </div>
                 <div class="menu">
                     <div className='options'>
-                        <a href="">
+                        <a href="https://planeshogarperu.com.pe/">
                             <div>
                                 <ion-icon name="phone-portrait-outline"></ion-icon>
                             </div>
@@ -37,7 +37,7 @@ const Header = () => {
                         </a>
                     </div>
                     <div className='options'>
-                        <a href="">
+                        <a href="https://planeshogarperu.com.pe/">
                             <div>
                                 <ion-icon name="home-outline"></ion-icon>
                             </div>

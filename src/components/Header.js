@@ -25,28 +25,28 @@ const Header = () => {
                 <div class="logo">
                     <img src={logo} alt='claro-logo'></img>
                 </div>
-                <div class="menu">
-                    <div className='options'>
+                <ul class="menu">
+                    <li className='options'>
                         <a href="https://planeshogarperu.com.pe/">
-                            <div>
+                            <div className='icon'>
                                 <ion-icon name="phone-portrait-outline"></ion-icon>
                             </div>
-                            <div>
+                            <div className='text'>
                                 <p>Planes Moviles</p>
                             </div>
                         </a>
-                    </div>
-                    <div className='options'>
+                    </li>
+                    <li className='options'>
                         <a href="https://planeshogarperu.com.pe/">
-                            <div>
+                            <div className='icon'>
                                 <ion-icon name="home-outline"></ion-icon>
                             </div>
-                            <div>
+                            <div className='text'>
                                 <p>Planes Hogar</p>
                             </div>
                         </a>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </section>
         </nav>
     );

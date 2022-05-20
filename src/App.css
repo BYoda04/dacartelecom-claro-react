@@ -14,6 +14,11 @@ a{
     text-decoration: none;
 }
 
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
 ion-icon{
     width: 1.5rem;
     height: 1.5rem;
@@ -24,58 +29,70 @@ ion-icon{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.2em;
+    font-weight: bold;
     font-weight: 700;
 }
 
-/*HEADER BUTTON*/
-.header-button{
-    background: #222222;
-    color: #fff;
-}
+  /*HEADER BUTTON*/
+  .header-button{
+      padding: 7.5px;
+      background: #222222;
+      color: #fff;
+      font-size: 1em;
+  }
 
-.button-text{
-  padding: 10px;
-}
+  .button-phone {
+    padding: 5px;
+    margin-right: .5rem;
+    background: #ee122c;
+    border-radius: .5rem;
+  }
 
-.button-phone {
-  padding: 10px;
-  margin-right: 2.5rem;
-  background: #ee122c;
-}
+  .button-phone a{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+  }
 
-.button-phone a{
+  .button-phone a div{
+    margin-right: .5rem;
+  }
+
+  /*HEADER MENU*/
+  .header-menu{
+    background: #ee122c;
+    padding: 0 1rem;
+  }
+
+  .logo img{
+    height: 2.625rem;
+    width: 7.5rem;
+  }
+
+  .menu{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .options{
+      margin: 1rem;
+  }
+
+  .options a{
+    margin: 0 !important;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
-}
+  }
 
-/*HEADER MENU*/
-.header-menu{
-  background: #ee122c;
-  padding: 1.25rem 5rem;
-}
+  .icon ion-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 
-.logo img{
-  height: 3.5rem;
-  width: 10rem;
-}
-
-.menu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.options{
-    margin: 1rem;
-}
-
-.menu div a{
-  margin: 0 !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-}
+  .text{
+    display: none;
+  }
